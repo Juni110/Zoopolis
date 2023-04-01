@@ -16,13 +16,16 @@
             <artifactId>itextpdf</artifactId>
             <version>5.5.13.3</version>
         </dependency>
+        <dependency>
+            <groupId>Zoopolis</groupId>
+            <artifactId>RSDragDropFile</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.zoopolis.zoopolis.Zoopolis</exec.mainClass>
-    </properties>
-    
-    
+    </properties>  
 </project>
